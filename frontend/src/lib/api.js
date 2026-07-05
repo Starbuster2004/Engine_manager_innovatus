@@ -1,6 +1,6 @@
 /* API helper — all requests include credentials for cookie auth */
 
-const BASE = process.env.NEXT_PUBLIC_API_URL || '';
+const BASE = '';
 
 // Custom event for auth failures — AuthContext listens for this
 const AUTH_ERROR_EVENT = 'auth:unauthorized';
